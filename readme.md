@@ -1,0 +1,1 @@
+This was just a fun Halloween page for my daughter. Its a countdown timer to the day using Javascript. I also included a quirky bleeding effect in the navbar using CSS and at the end, I created a fun little ghost figure, rounding off the corners using border radius and attaching an animation to the body, the arms and the shadow.

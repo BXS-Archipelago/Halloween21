@@ -43,7 +43,7 @@
 
 body {
   font-size: 1rem;
-  background-image: url(/halloween.jpg);
+  background-image: url(../halloween.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -110,7 +110,7 @@ p {
     font-size: 1.75rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   h1,
@@ -595,5 +595,30 @@ article {
 @media screen and (min-width: 800px) {
   .links {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .deadline-format span {
+    letter-spacing: 2px;
+    font-size: 0.6rem;
+  }
+  .deadline h4:not(.expired) {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: var(--spacing);
+  }
+
+  .deadline-format {
+    color: var(--hlwn-red-dark);
+    text-shadow: var(--green-shadow);
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .sml-hdr {
+    font-size: 1.1rem;
+    text-align: center;
   }
 }
